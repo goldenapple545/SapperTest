@@ -1,4 +1,4 @@
-﻿namespace CodeBase
+﻿namespace CodeBase.Logic.Equipment
 {
     public class Parachute : Item
     {

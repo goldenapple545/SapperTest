@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072674990858557596}
   - component: {fileID: 388225891679046710}
+  - component: {fileID: -2075064459376818869}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -45,7 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scriptableObjectInstallers: []
-  _monoInstallers: []
+  _monoInstallers:
+  - {fileID: -2075064459376818869}
   _installerPrefabs: []
   _parentNewObjectsUnderContext: 1
   _editorReflectionBakingCoverageMode: 0
@@ -60,3 +62,28 @@ MonoBehaviour:
       _missingHandlerDefaultResponse: 2
       _requireStrictUnsubscribe: 0
       _defaultAsyncTickPriority: 1
+--- !u!114 &-2075064459376818869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680442300532651592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2495f3a23f4a452abbd8869949869a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSettings:
+    Health: 100
+    Lives: 3
+    Nickname: John
+    Skills:
+    - Skill1
+    - Skill2
+    - Skill3
+  equipmentSettings:
+    WeaponName: "\u0412\u0438\u043D\u0442\u043E\u0432\u043A\u0430"
+    WeaponAmmo: 50
+    ParachuteName: "\u041F\u0430\u0440\u0430\u0448\u044E\u0442"
+    RocketPackCharges: 3
